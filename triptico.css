@@ -1,0 +1,45 @@
+body{
+  text-align: center;
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+}
+.titulo{
+  text-align: center;
+  background-color: yellow;
+  border:1px solid black;
+  height: 10%;
+
+}
+.columna1izq{
+  float: left;
+  width: 25%;
+  height: 82%;
+  border-right: 1px solid black;
+
+}
+.columna2central{
+  float: left;
+  width: 49%;
+  border-right: 1px solid black;
+  height:82%;
+
+}
+.columna3der{
+  float: left;
+  width: 25%;
+
+}
+.piedepagina{
+  background-color: yellow;
+  height: 8%; /*?*/
+  clear: both; /*?*/
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+img{
+  width: 100%;
+  height: auto;
+
+}

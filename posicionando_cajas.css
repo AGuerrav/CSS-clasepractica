@@ -1,0 +1,42 @@
+.caja1roja{
+  width: 400px;
+  height: 400px;
+  background: red;
+  position: relative;
+}
+.caja_1interna1{
+  width: 200px;
+  height: 200px;
+  background: violet;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.caja_1interna2{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: absolute;
+}
+.caja2azul{
+  width: 400px;
+  height: 400px;
+  background: blue;
+  position: relative;
+  top: 50px;
+}
+.interna1en2{
+  width: 100px;
+  height: 100px;
+  background: black;
+  position: absolute;
+}
+.interna2en2{
+  width: 200px;
+  height: 200px;
+  background: green;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+
+}
