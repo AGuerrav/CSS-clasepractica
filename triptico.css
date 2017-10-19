@@ -1,45 +1,60 @@
 body{
-  text-align: center;
-  width: 800px;
-  height: 800px;
-  border: 1px solid black;
+  text-align: justify;
+  width: 1000px;
+  height: 1000px;
+
 }
 .titulo{
   text-align: center;
-  background-color: yellow;
-  border:1px solid black;
-  height: 10%;
+  background-color: orange;
+  border: 1px solid black;
+  display: inline-block;
+  padding-bottom: 3%;
+  height: 5%;
+  width: 99.2%;
 
 }
 .columna1izq{
   float: left;
-  width: 25%;
-  height: 82%;
+  width: 30%;
+  height: 90%;
   border-right: 1px solid black;
+  border-left: 1px solid black;
 
 }
 .columna2central{
   float: left;
-  width: 49%;
+  width: 39%;
   border-right: 1px solid black;
-  height:82%;
+  height:90%;
 
 }
 .columna3der{
   float: left;
-  width: 25%;
+  width: 30%;
+  height:90%;
+  border-right: 1px solid black;
 
 }
 .piedepagina{
-  background-color: yellow;
-  height: 8%; /*?*/
+  background-color: orange;
+  height: 5%; /*?*/
+  width: 99.2%;
   clear: both; /*?*/
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
+  text-align: center;
 
 }
 img{
   width: 100%;
   height: auto;
-
+}
+p{
+  margin: 20px;
+}
+h2{
+  text-align: center;
+}
+.clearfix{
+  overflow: auto;
 }

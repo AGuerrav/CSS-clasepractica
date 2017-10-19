@@ -1,0 +1,55 @@
+body{
+  text-align: center;
+
+}
+nav{
+  outline: 1px solid green;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+div{
+  background-color: #f2f4f4;
+  width: 19.6%;
+  height: 40%;
+  display: inline-block;
+
+}
+i{
+  outline: 1px solid red;
+}
+.fa-heart-o{
+  font-size: 400%;
+}
+.fa-paper-plane-o{
+  font-size: 400%;
+}
+.fa-diamond{
+  font-size: 400%;
+}
+.fa-coffee{
+  font-size: 400%;
+}
+.fa-cutlery{
+  font-size: 400%;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: #2c3e50;
+  /*outline: 1px solid green;*/
+}
+a:hover{
+  background-color: #f7f9f9;
+  color: #bdc3c7;
+}
+
+h2{
+  font-family: 'Bree Serif', serif;
+}
+h3,p{
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+
+}
